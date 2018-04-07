@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+}
+
+@font-face{
+  font-family:'fu-reg';
+  src:url("../css/fonts/FreeUniversal-Regular.ttf");
+}
+
+#entries {
+  display: flex;
+  flex-direction: row;
+}
+
+.entry {
+  font-family: 'fu-reg';
+  line-height: 1.1em;
+  max-width: 200px;
+}
