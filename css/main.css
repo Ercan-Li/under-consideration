@@ -17,6 +17,7 @@ body, html {
   line-height: 1.1em;
   min-width: 200px;
   max-width: 200px;
+  margin-bottom: 200px;
 }
 
 .entry a {
