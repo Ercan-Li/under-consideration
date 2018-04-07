@@ -7,6 +7,11 @@ body, html {
   src:url("../css/fonts/FreeUniversal-Regular.ttf");
 }
 
+@font-face{
+  font-family:'fu-bold';
+  src:url("../css/fonts/FreeUniversal-Bold.ttf");
+}
+
 #entries {
   display: flex;
   flex-direction: row;
@@ -37,6 +42,14 @@ body, html {
   -webkit-margin-before: 0em;
 }
 
+.entry p {
+  margin-bottom: 1.07em;
+}
 .entry.image {
   width: 500px;
+}
+
+strong,b {
+  font-weight: normal;
+  font-family: 'fu-bold';
 }
