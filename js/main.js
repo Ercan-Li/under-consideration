@@ -5,11 +5,12 @@ request.open('GET', url, true);
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     // Success!
+    document.getElementById('dot-dot-dot').style.display = 'none';
     var data = JSON.parse(request.responseText);
 
     data.contents.forEach(function(c) {
       var div = document.createElement('div');
-      console.log(c.created_at);
+
       div.className = 'entry';
       if (c.class === 'Text') {
         var text = c.content_html;
