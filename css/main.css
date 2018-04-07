@@ -15,5 +15,27 @@ body, html {
 .entry {
   font-family: 'fu-reg';
   line-height: 1.1em;
+  min-width: 200px;
   max-width: 200px;
+}
+
+.entry a {
+  text-decoration: none;
+  color: #AAA;
+}
+
+.entry img {
+  width: 100%;
+}
+.entry p a[href] {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.entry p:first-of-type {
+  -webkit-margin-before: 0em;
+}
+
+.entry.image {
+  width: 500px;
 }
