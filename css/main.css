@@ -49,6 +49,10 @@ body, html {
   width: 500px;
 }
 
+.caption {
+  font-size: .8em;
+}
+
 strong,b {
   font-weight: normal;
   font-family: 'fu-bold';

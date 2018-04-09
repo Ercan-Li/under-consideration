@@ -16,7 +16,8 @@ request.onload = function() {
         var text = c.content_html;
         div.innerHTML = text + "<p>" + formatDate(new Date(c.created_at)) + "</p>";
       } else if (c.class === 'Image') {
-        div.innerHTML = '<a href="' + c.image.original.url + '" target="_blank"><img src="' + c.image.display.url + '"></a>';
+        console.log(c);
+        div.innerHTML = '<a href="' + c.image.original.url + '" target="_blank"><img src="' + c.image.display.url + '"></a><div class="caption">' + c.title + '</div>';
       }
       document.getElementById('entries').insertBefore(div, document.getElementById('entries').childNodes[0]);
 
