@@ -58,6 +58,10 @@ strong,b {
   font-family: 'fu-bold';
 }
 
+#uc-logo {
+  margin-top: -20px;
+  width: 50%;
+}
 
 #dot-dot-dot:after {
   overflow: hidden;
