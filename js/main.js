@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-var url = 'https://api.are.na/v2/channels/under-consideration-1517888768';
+var url = 'https://api.are.na/v2/channels/under-consideration-1517888768?per=100';
 request.open('GET', url, true);
 
 request.onload = function() {
